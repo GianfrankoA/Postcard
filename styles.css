@@ -1,0 +1,38 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	margin: 0;
+	width: 100%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p {
+	padding: 10px;
+	font-size: small;
+	font-family: "Courier New", Courier, monospace;
+}
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: darkgray;
+	padding: 5px 10px;
+}
